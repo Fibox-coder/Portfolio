@@ -44,6 +44,17 @@ a {
   margin: 30px;
 }
 
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-icons {
+  width: 30px;
+  margin-right: 10px;
+}
+
 /* MAIN */
 /* INTRO */
 
@@ -77,7 +88,7 @@ h2 {
 }
 
 .introduction {
-  width: 600px;
+  width: 620px;
 }
 
 h3 {
@@ -89,6 +100,35 @@ h3 {
 h4 {
   font-weight: 400;
   font-size: 1rem;
+}
+
+/* Tools & Skills */
+.skills-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-title {
+  font-size: 3rem;
+  font-weight: 500;
+
+}
+
+.list-container {
+  display: flex;
+  gap: 30px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  width: 150px;
 }
 
 /* PORTFOLIO */
@@ -139,7 +179,9 @@ h4 {
   width: 75px;
 }
 
-button {
+
+
+.button-link {
   cursor: pointer;
   background-color: rgb(219, 179, 155);
   border: 2px solid white;
@@ -148,7 +190,7 @@ button {
   margin: 0px 20px 0px 0px;
 }
 
-button:hover {
+.button-link:hover {
   box-shadow: 0 0 2px 0px rgb(255, 255, 255);
 }
 
@@ -173,6 +215,34 @@ footer {
   margin-left: 10px;
 }
 
+
+/* Animation */
+
+.hover-underline-animation {
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(219, 179, 155);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+/* MEDIA */
+
 @media (max-width: 1200px) {
   .portfolio-grid {
     display: grid;
@@ -180,6 +250,26 @@ footer {
     gap: 100px;
   }
 
+}
+
+@media (max-width: 850px) {
+  /* .header-icons {
+    display: none;
+  } */
+
+  .header {
+    padding: 0;
+    justify-content: center;
+  }
+
+  #navigation {
+    font-size: min(1rem, 3vw);
+    font-size: max(1.3rem, 3vw);
+  }
+
+  .my-name {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
