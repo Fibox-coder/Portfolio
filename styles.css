@@ -258,7 +258,6 @@ p {
 .contact {
   text-align: center;
   width: 620px;
-
 }
 
 .contact h3 {
@@ -410,5 +409,20 @@ footer {
   .contact-container {
     margin-top: 25px;
     margin-bottom: 30px;
+  }
+
+  .contact {
+    width: 450px;
+  }
+
+  .contact-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-type {
+    justify-content: center;
+    align-items: center;
   }
 }
