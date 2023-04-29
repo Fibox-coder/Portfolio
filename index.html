@@ -1,265 +1,503 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-<body id="header">
-  <header class="header">
-    <div class="my-name">Tim van Deutekom</div>
-    <ul id="navigation">
-      <li class="header-container hover-underline-animation">
-        <img src="images/icons/about.svg" class="header-icons" alt="about icon">
-        <a href="#header">About</a>
-      </li>
-      <li class="header-container hover-underline-animation">
-        <img src="images/icons/tools.svg" class="header-icons" alt="about icon">
-        <a href="#skills">Skills</a>
-      </li>
-      <li class="header-container hover-underline-animation">
-        <img src="images/icons/portfolio.svg" class="header-icons" alt="about icon">
-        <a href="#portfolio-navigation">Work</a>
-      </li>
-      <li class="header-container hover-underline-animation">
-        <img src="images/icons/contact.svg" class="header-icons" alt="about icon">
-        <a href="#footer">Contact</a>
-      </li>
-    </ul>
-   </header>
-
-   <!-- Start of About -->
-   <main>
-    <div class="introduction-container center-text">
-
-    <div class="intro">
-      <h1>Hey, I'm Tim van Deutekom</h1>
-      <h2 class="introduction">A Web Developer & Programmer focused on building the Frontend of Websites and Web applications </h2>
-    </div>
-    
-    <div class="about">
-      <h3 class="skills-title">About me</h3>
-      <h4 class="introduction">
-        following my graduation from a senior general secondary education (HAVO) I decided to work for a family company, where I picked up 6 years of working experience as an office worker in multiple different facets of the company.
-        <br><br>
-        After this I wanted a new challenge, and luckily for me, I really enjoyed coding. So I decided to delve deeper into programming for the last few years.
-        <br><br>
-        To further develop my skill set I followed courses such as: <br> LOI's "HBO-program in Javascript" (Javascript, Frameworks, Libraries, API's) <br> The Odin Projects "Foundations" (JS, Git, Github, Linux, Command line) <br>  FCC's "Responsive Web Design" (HTML, CSS)  </h4>
-        </div>
-    </div>
-
-  <div id="skills"></div> <!-- Made to navigate just above Tools & Skills -->
-
-  <!-- Start of Tools & Skills -->
-  <div class="skills-container">
-    <h2 class="skills-title">Tools & Skills</h2>
-
-    <div class="list-container">
-      <ul>
-          <li class="icon-container">
-            HTML
-            <img src="images/icons/html.png" alt="html">
-          </li>
-          <li class="icon-container">
-            CSS
-            <img src="images/icons/css.png" alt="CSS">
-          </li>
-          <li class="icon-container">
-            SASS
-            <img src="images/icons/sass.png" alt="SASS">
-          </li>
-          <li class="icon-container">
-            JavaScript
-            <img src="images/icons/javascript.png" alt="JS">
-          </li>
-      </ul>
-      <ul>
-        <li class="icon-container">
-          React
-          <img src="images/icons/react.png" alt="React">
+  <body id="header">
+    <header class="header">
+      <div class="my-name">Tim van Deutekom</div>
+      <ul id="navigation">
+        <li class="header-container hover-underline-animation">
+          <img
+            src="images/icons/about.svg"
+            class="header-icons"
+            alt="about icon"
+          />
+          <a href="#header">About</a>
         </li>
-        <li class="icon-container">
-          Git
-          <img src="images/icons/git.png" alt="Git">
+        <li class="header-container hover-underline-animation">
+          <img
+            src="images/icons/tools.svg"
+            class="header-icons"
+            alt="about icon"
+          />
+          <a href="#skills">Skills</a>
         </li>
-        <li class="icon-container">
-          Github
-          <img src="images/icons/github.png" alt="Github">
+        <li class="header-container hover-underline-animation">
+          <img
+            src="images/icons/portfolio.svg"
+            class="header-icons"
+            alt="about icon"
+          />
+          <a href="#portfolio-navigation">Work</a>
         </li>
-        <li class="icon-container">
-          TypeScript
-          <img src="images/icons/typescript.png" alt="TS">
+        <li class="header-container hover-underline-animation">
+          <img
+            src="images/icons/contact.svg"
+            class="header-icons"
+            alt="about icon"
+          />
+          <a href="#footer">Contact</a>
         </li>
       </ul>
-      <ul>
-        <li class="icon-container">
-          Linux
-          <img src="images/icons/linux.png" alt="Linux">
-        </li>
-        <li class="icon-container">
-          JQuery
-          <img src="images/icons/jquery.png" alt="JQuery">
-        </li>
-        <li class="icon-container">
-          Command line
-          <img src="images/icons/cmd.png" alt="Cmd">
-        </li>
-        <li class="icon-container">
-          Bootstrap
-          <img src="images/icons/bootstrap.png" alt="Bootstrap">
-        </li>
-      </ul>
-    </div>
-    <div id="portfolio-navigation"></div><!-- Made to navigate just above Portfolio -->
-  </div>
+    </header>
 
-  <!-- Start of portfolio -->
-  <div class="portfolio-container" id="portfolio">
-    <h3 class="portfolio-title center-text">These are some of my projects</h3>
-
-    <div class="portfolio-grid">
-
-      <div class="project-container">
-        <h3 class="project-title">Weather App (Javascript, HTML, CSS / API)</h3>
-        <div class="image-container">
-          <a href="https://fibox-coder.github.io/Weather-App/" target="blank">
-            <img class="portfolio-images" src="images/weather-app.jpg" alt="Weather app">
-            <div class="overlay">
-              <i class="fas fa-eye"> </i> Preview
-            </div>
-          </a>
+    <!-- Start of About -->
+    <main>
+      <div class="introduction-container center-text">
+        <div class="intro">
+          <h1>Hey, I'm Tim van Deutekom</h1>
+          <h2 class="introduction">
+            A Web Developer & Programmer focused on building the Frontend of
+            Websites and Web applications
+          </h2>
         </div>
-        <p>A very fun project to solve. This helped me immense with working with API's and how to get Data from them. It also was a great challenge to make the code as clear and clean as I could. <br><br></p>
-        <a href="https://fibox-coder.github.io/Weather-App/" target="blank" class="button-link">Website</a>
-        <a href="https://github.com/Fibox-coder/Weather-App" target="blank" class="button-link">Github</a>
-      </div>  
 
-      <div class="project-container"> 
-        <h3 class="project-title">Book Library (Javascript, HTML, CSS)</h3>
-        <div class="image-container">
-          <a href="https://fibox-coder.github.io/Library/" target="blank">
-          <img class="portfolio-images" src="images/library.jpg" alt="Book Library">
-            <div class="overlay">
-            <i class="fas fa-eye"> </i> Preview
-            </div>
-          </a>
+        <div class="about">
+          <h3 class="skills-title">About me</h3>
+          <h4 class="introduction">
+            I worked for a family company, where I picked up 6 years of working
+            experience as an office worker in multiple departments of the
+            company.
+            <br /><br />
+            After this I wanted a new challenge, and luckily for me, I really
+            enjoyed coding. So I decided to delve deeper into programming for
+            the last few years.
+            <br /><br />
+            To further develop my skill set I followed courses such as: <br />
+            LOI's "HBO-program in Javascript" (Javascript, Frameworks,
+            Libraries, API's) <br />
+            The Odin Projects "Foundations" (JS, Git, Github, Linux, Command
+            line, React) <br />
+            FCC's "Responsive Web Design" (HTML, CSS)
+          </h4>
         </div>
-        <p>One of my most educational projects. The main goal of this project was to learn more about how to implement Object Constructors. In addition I had to create a modal for adding books and accepting user input (which was quite similar to previous "create a form" projects).</p>
-        <a href="https://fibox-coder.github.io/Library/" target="blank" class="button-link"> Website</a>
-        <a href="https://github.com/Fibox-coder/Library" target="_blank" class="button-link">Github</a>
       </div>
 
-      <div class="project-container">
-        <h3 class="project-title">Memory Game (Javascript)</h3>
-        <div class="image-container">
-          <a href="https://fibox-coder.github.io/memoryGame/" target="blank">
-            <img class="portfolio-images" src="images/memorygame.jpg" alt="Memory game">
-            <div class="overlay">
-              <i class="fas fa-eye"> </i> Preview
-            </div>
-          </a>
-        </div>
-        <p> This was my end project for the LOI course. Very challenging, with a lot of diverse Javascript problems to be solved. From  determining how to match the cards to keeping track of the score (and save the highscore). <br><br> Not to mention all the little things like adding sound when a card is clicked, creating a timer, fetching data from a json file and utilizing class constructor.</p>
-        <a href="https://fibox-coder.github.io/memoryGame/" target="blank" class="button-link">Website</a>
-        <a href="https://github.com/Fibox-coder/memoryGame" target="blank" class="button-link">Github</a>
-      </div>  
+      <div id="skills"></div>
+      <!-- Made to navigate just above Tools & Skills -->
 
-      <div class="project-container">
-        <h3 class="project-title">Todo-list (React)</h3>
-        <div class="image-container">
-          <a href="https://fibox-coder.github.io/React-Todo-List/" target="blank">
-            <img class="portfolio-images" src="images/react-todo-list.jpg" alt="Todo-list">
-            <div class="overlay">
-              <i class="fas fa-eye"> </i> Preview
-            </div>
-          </a>
+      <!-- Start of Tools & Skills -->
+      <div class="skills-container">
+        <h2 class="skills-title">Tools & Skills</h2>
+
+        <div class="list-container">
+          <ul>
+            <li class="icon-container">
+              HTML
+              <img src="images/icons/html.png" alt="html" />
+            </li>
+            <li class="icon-container">
+              CSS
+              <img src="images/icons/css.png" alt="CSS" />
+            </li>
+            <li class="icon-container">
+              SASS
+              <img src="images/icons/sass.png" alt="SASS" />
+            </li>
+            <li class="icon-container">
+              JavaScript
+              <img src="images/icons/javascript.png" alt="JS" />
+            </li>
+          </ul>
+          <ul>
+            <li class="icon-container">
+              React
+              <img src="images/icons/react.png" alt="React" />
+            </li>
+            <li class="icon-container">
+              Git
+              <img src="images/icons/git.png" alt="Git" />
+            </li>
+            <li class="icon-container">
+              Github
+              <img src="images/icons/github.png" alt="Github" />
+            </li>
+            <li class="icon-container">
+              TypeScript
+              <img src="images/icons/typescript.png" alt="TS" />
+            </li>
+          </ul>
+          <ul>
+            <li class="icon-container">
+              Linux
+              <img src="images/icons/linux.png" alt="Linux" />
+            </li>
+            <li class="icon-container">
+              JQuery
+              <img src="images/icons/jquery.png" alt="JQuery" />
+            </li>
+            <li class="icon-container">
+              Command line
+              <img src="images/icons/cmd.png" alt="Cmd" />
+            </li>
+            <li class="icon-container">
+              Bootstrap
+              <img src="images/icons/bootstrap.png" alt="Bootstrap" />
+            </li>
+          </ul>
         </div>
-        <p>A todo-list created with React. With this project I mainly focused on understanding how certain aspects of React work. How components are used, how they can be put together in a wrapper and exchange information and of course the basics like understanding more about State and Props. <br><br> I also focused a lot on clearly commenting what everything does.</p>
-        <a href="https://fibox-coder.github.io/React-Todo-List/" target="blank" class="button-link">Website</a>
-        <a href="https://github.com/Fibox-coder/React-Todo-List" target="blank" class="button-link">Github</a>
+        <div id="portfolio-navigation"></div>
+        <!-- Made to navigate just above Portfolio -->
       </div>
 
-      <div class="project-container">
-        <h3 class="project-title">Coolblue Frontpage Replica (HTML, CSS)</h3>
-          <div class="image-container">
-          <a href="https://fibox-coder.github.io/Coolblue-replica/" target="blank">
-            <img class="portfolio-images" src="images/coolblue.jpg" alt="Coolblue Frontpage">
-            <div class="overlay">
-              <i class="fas fa-eye"> </i> Preview
+      <!-- Start of portfolio -->
+      <div class="portfolio-container" id="portfolio">
+        <h3 class="portfolio-title center-text">
+          These are some of my projects
+        </h3>
+
+        <div class="portfolio-grid">
+          <div class="project-container">
+            <h3 class="project-title">
+              Weather App (Javascript, HTML, CSS / API)
+            </h3>
+            <div class="image-container">
+              <a
+                href="https://fibox-coder.github.io/Weather-App/"
+                target="blank"
+              >
+                <img
+                  class="portfolio-images"
+                  src="images/weather-app.jpg"
+                  alt="Weather app"
+                />
+                <div class="overlay"><i class="fas fa-eye"> </i> Preview</div>
+              </a>
             </div>
-          </a>
-        </div>
-        <p>With this project I focused on creating a replica version of Coolblue. I absolutely love the design of this website and how clean it looks, which is why I choose this specific website. I had to utilize "flexbox" in CSS a lot in this project, which made me much more comfortable with layout problems in future projects.<br><br>I also used online HTML and CSS validators to make sure the code was correct and fixed any mistakes. And had to use a lot of Media Queries to make sure it was responsive on smaller screens.</p>
-        <a href="https://fibox-coder.github.io/Coolblue-replica/" target="blank" class="button-link">Website</a>
-        <a href="https://github.com/Fibox-coder/Coolblue-replica" target="blank" class="button-link">Github</a>
-      </div>
+            <p>
+              A very fun project to solve. A weather app that allows you to type
+              in the name of any city in the world so that you can see the live
+              weather. This helped me immense with working with API's and how to
+              get Data from them. It also was a great challenge to make the code
+              as clear and clean as I could.
+              <br /><br />
+            </p>
+            <a
+              href="https://fibox-coder.github.io/Weather-App/"
+              target="blank"
+              class="button-link"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Fibox-coder/Weather-App"
+              target="blank"
+              class="button-link"
+              >Github</a
+            >
+          </div>
 
-      <div class="project-container">
-        <h3 class="project-title">Calculator (Javascript, HTML, CSS)</h3>
-        <div class="image-container">
-          <a href="https://fibox-coder.github.io/Calculator-updated/" target="blank">
-            <img class="portfolio-images" src="images/calculator.jpg" alt="Calculator">
-            <div class="overlay">
-              <i class="fas fa-eye"> </i> Preview
+          <div class="project-container">
+            <h3 class="project-title">Book Library (Javascript, HTML, CSS)</h3>
+            <div class="image-container">
+              <a href="https://fibox-coder.github.io/Library/" target="blank">
+                <img
+                  class="portfolio-images"
+                  src="images/library.jpg"
+                  alt="Book Library"
+                />
+                <div class="overlay"><i class="fas fa-eye"> </i> Preview</div>
+              </a>
             </div>
-          </a>
-        </div>
-        <p>Making a calculator was a project for The Odin Project and the LOI course. One of the great things about doing this project twice is how I could actually see the improvement from my first try. The code is a lot more cleaner, and I learned the importance of repeating something from scratch and trying to improve over the first iteration.<br><br>On my second try I also really tried to emphasize good "commenting". Not only does it help for colleagues in a working environment, but also for my future self!</p>
-        <a href="https://fibox-coder.github.io/Calculator-updated/" target="blank" class="button-link">Website</a>
-        <a href="https://github.com/Fibox-coder/Calculator-updated" target="blank" class="button-link">Github</a>
-      </div>
+            <p>
+              One of my most educational projects. The main goal of this project
+              was to learn more about how to implement Object Constructors. In
+              addition I had to create a modal for adding books and accepting
+              user input (which was quite similar to previous "create a form"
+              projects).
+            </p>
+            <a
+              href="https://fibox-coder.github.io/Library/"
+              target="blank"
+              class="button-link"
+            >
+              Website</a
+            >
+            <a
+              href="https://github.com/Fibox-coder/Library"
+              target="_blank"
+              class="button-link"
+              >Github</a
+            >
+          </div>
 
-      <div class="project-container">
-        <h3 class="project-title">Portfolio Page (SCSS / Sass)</h3>
-        <div class="image-container">
-          <a href="http://127.0.0.1:5500/portfolio2/dist/index.html" target="blank">
-            <img class="portfolio-images" src="images/portfolio.jpg" alt="Portfolio Sass">
-            <div class="overlay">
-              <i class="fas fa-eye"> </i> Preview
+          <div class="project-container">
+            <h3 class="project-title">Memory Game (Javascript)</h3>
+            <div class="image-container">
+              <a
+                href="https://fibox-coder.github.io/memoryGame/"
+                target="blank"
+              >
+                <img
+                  class="portfolio-images"
+                  src="images/memorygame.jpg"
+                  alt="Memory game"
+                />
+                <div class="overlay"><i class="fas fa-eye"> </i> Preview</div>
+              </a>
             </div>
-          </a>
-        </div>
-        <p> This Portfolio website was made with Scss. It took some time to get used to Scss, but after this project I finally understood why so many people prefer it over vanilla CSS. It's a lot more organized and easier to read. (if done correctly)  <br><br> The mixin's and functions you can add with it are also really nice to prevent repetitive code. </p>
-        <a href="http://127.0.0.1:5500/portfolio2/dist/index.html" target="blank" class="button-link">Website</a>
-        <a href="https://github.com/Fibox-coder/Portfolio2" target="blank" class="button-link">Github</a>
-      </div>
+            <p>
+              This was my end project for the LOI course (Programming in
+              Javascript). Very challenging, with a lot of diverse Javascript
+              problems to be solved. From determining how to match the cards to
+              keeping track of the score (and save the highscore). <br /><br />
+              Not to mention all the little things like adding sound when a card
+              is clicked, creating a timer, fetching data from a json file and
+              utilizing class constructor.
+            </p>
+            <a
+              href="https://fibox-coder.github.io/memoryGame/"
+              target="blank"
+              class="button-link"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Fibox-coder/memoryGame"
+              target="blank"
+              class="button-link"
+              >Github</a
+            >
+          </div>
 
-      <div class="project-container">
-        <h3 class="project-title">Etch-A-Sketch (Javascript)</h3>
-        <div class="image-container">
-          <a href="https://fibox-coder.github.io/Etch-a-Sketch/" target="blank">
-            <img class="portfolio-images" src="images/etch-a-sketch.jpg" alt="Etch-A-Sketch">
-            <div class="overlay">
-              <i class="fas fa-eye"> </i> Preview
+          <div class="project-container">
+            <h3 class="project-title">Todo-list (React)</h3>
+            <div class="image-container">
+              <a
+                href="https://fibox-coder.github.io/React-Todo-List/"
+                target="blank"
+              >
+                <img
+                  class="portfolio-images"
+                  src="images/react-todo-list.jpg"
+                  alt="Todo-list"
+                />
+                <div class="overlay"><i class="fas fa-eye"> </i> Preview</div>
+              </a>
             </div>
-          </a>
-        </div>
-        <p>A project that utilizes a loop to let the user pick the size of their board and create that many squares to "draw" on. It was a fun challenge to get the loop right, especially with the slider that the user could use to easily change board sizes.  <br><br> I'm glad that I solved the problem with the slider included. It is a lot more userfriendly than asking the user with a prompt.</p>
-        <a href="https://fibox-coder.github.io/Etch-a-Sketch/" target="blank" class="button-link">Website</a>
-        <a href="https://github.com/Fibox-coder/Etch-a-Sketch" target="blank" class="button-link">Github</a>
-      </div>
+            <p>
+              A todo-list created with React. With this project I mainly focused
+              on understanding how certain aspects of React work. How components
+              are used, how they can be put together in a wrapper and exchange
+              information and of course the basics like understanding more about
+              State and Props. <br /><br />
+              I also focused a lot on clearly commenting what everything does.
+            </p>
+            <a
+              href="https://fibox-coder.github.io/React-Todo-List/"
+              target="blank"
+              class="button-link"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Fibox-coder/React-Todo-List"
+              target="blank"
+              class="button-link"
+              >Github</a
+            >
+          </div>
 
-
-      <div class="project-container">
-        <h3 class="project-title">Dashboard (HTML, CSS)</h3>
-        <div class="image-container">
-          <a href="https://fibox-coder.github.io/Admin-dashboard/" target="blank">
-            <img class="portfolio-images" src="images/dashboard.jpg" alt="AdminDashboard">
-            <div class="overlay">
-              <i class="fas fa-eye"> </i> Preview
+          <div class="project-container">
+            <h3 class="project-title">
+              Coolblue Frontpage Replica (HTML, CSS)
+            </h3>
+            <div class="image-container">
+              <a
+                href="https://fibox-coder.github.io/Coolblue-replica/"
+                target="blank"
+              >
+                <img
+                  class="portfolio-images"
+                  src="images/coolblue.jpg"
+                  alt="Coolblue Frontpage"
+                />
+                <div class="overlay"><i class="fas fa-eye"> </i> Preview</div>
+              </a>
             </div>
-          </a>
-        </div>
-        <p>The goal of this project was mainly to learn as much as I can about "grid" in CSS. Up to this point I most often used flexbox to solve CSS layout problems. But I knew that in some cases grid would be much more useful. So I created a social media dashboard with a very "grid-like" design.<br><br>Figuring out how to create the optimal code in CSS for the Frontend layout is one of my favorite things to do!</p>
-        <a href="https://fibox-coder.github.io/Admin-dashboard/" target="blank" class="button-link">Website</a>
-        <a href="https://github.com/Fibox-coder/Admin-dashboard" target="blank" class="button-link">Github</a>
-      </div>
-     
+            <p>
+              With this project I focused on creating a replica version of
+              Coolblue. I absolutely love the design of this website and how
+              clean it looks, which is why I choose this specific website. I had
+              to utilize "flexbox" in CSS a lot in this project, which made me
+              much more comfortable with layout problems in future projects.<br /><br />I
+              also used online HTML and CSS validators to make sure the code was
+              correct and fixed any mistakes. And had to use a lot of Media
+              Queries to make sure it was responsive on smaller screens.
+            </p>
+            <a
+              href="https://fibox-coder.github.io/Coolblue-replica/"
+              target="blank"
+              class="button-link"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Fibox-coder/Coolblue-replica"
+              target="blank"
+              class="button-link"
+              >Github</a
+            >
+          </div>
 
-      <!-- <div class="project-container">
+          <div class="project-container">
+            <h3 class="project-title">Calculator (Javascript, HTML, CSS)</h3>
+            <div class="image-container">
+              <a
+                href="https://fibox-coder.github.io/Calculator-updated/"
+                target="blank"
+              >
+                <img
+                  class="portfolio-images"
+                  src="images/calculator.jpg"
+                  alt="Calculator"
+                />
+                <div class="overlay"><i class="fas fa-eye"> </i> Preview</div>
+              </a>
+            </div>
+            <p>
+              Making a calculator was a project for both The Odin Project and
+              the LOI course (Programming in JavaScript). One of the great
+              things about doing this project twice is how I could actually see
+              the improvement from my first try. The code is a lot more cleaner,
+              and I learned the importance of repeating something from scratch
+              and trying to improve over the first iteration.<br /><br />On my
+              second try I also really tried to emphasize good "commenting". Not
+              only does it help for colleagues in a working environment, but
+              also for my future self!
+            </p>
+            <a
+              href="https://fibox-coder.github.io/Calculator-updated/"
+              target="blank"
+              class="button-link"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Fibox-coder/Calculator-updated"
+              target="blank"
+              class="button-link"
+              >Github</a
+            >
+          </div>
+
+          <div class="project-container">
+            <h3 class="project-title">Portfolio Page (SCSS / Sass)</h3>
+            <div class="image-container">
+              <a
+                href="http://127.0.0.1:5500/portfolio2/dist/index.html"
+                target="blank"
+              >
+                <img
+                  class="portfolio-images"
+                  src="images/portfolio.jpg"
+                  alt="Portfolio Sass"
+                />
+                <div class="overlay"><i class="fas fa-eye"> </i> Preview</div>
+              </a>
+            </div>
+            <p>
+              This Portfolio website was made with Scss. It took some time to
+              get used to Scss, but after this project I finally understood why
+              so many people prefer it over vanilla CSS. It's a lot more
+              organized and easier to read (if done correctly). <br /><br />
+              The mixins and functions you can add with it are also really nice
+              to prevent repetitive code.
+            </p>
+            <a
+              href="http://127.0.0.1:5500/portfolio2/dist/index.html"
+              target="blank"
+              class="button-link"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Fibox-coder/Portfolio2"
+              target="blank"
+              class="button-link"
+              >Github</a
+            >
+          </div>
+
+          <div class="project-container">
+            <h3 class="project-title">Etch-A-Sketch (Javascript)</h3>
+            <div class="image-container">
+              <a
+                href="https://fibox-coder.github.io/Etch-a-Sketch/"
+                target="blank"
+              >
+                <img
+                  class="portfolio-images"
+                  src="images/etch-a-sketch.jpg"
+                  alt="Etch-A-Sketch"
+                />
+                <div class="overlay"><i class="fas fa-eye"> </i> Preview</div>
+              </a>
+            </div>
+            <p>
+              A project that utilizes a loop to let the user pick the size of
+              their board and create that many squares to "draw" on. It was a
+              fun challenge to get the loop right, especially with the slider
+              that the user could use to easily change board sizes. <br /><br />
+              I'm glad that I solved the problem with the slider included. It is
+              a lot more userfriendly than asking the user with a prompt.
+            </p>
+            <a
+              href="https://fibox-coder.github.io/Etch-a-Sketch/"
+              target="blank"
+              class="button-link"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Fibox-coder/Etch-a-Sketch"
+              target="blank"
+              class="button-link"
+              >Github</a
+            >
+          </div>
+
+          <div class="project-container">
+            <h3 class="project-title">Dashboard (HTML, CSS)</h3>
+            <div class="image-container">
+              <a
+                href="https://fibox-coder.github.io/Admin-dashboard/"
+                target="blank"
+              >
+                <img
+                  class="portfolio-images"
+                  src="images/dashboard.jpg"
+                  alt="AdminDashboard"
+                />
+                <div class="overlay"><i class="fas fa-eye"> </i> Preview</div>
+              </a>
+            </div>
+            <p>
+              The goal of this project was mainly to learn as much as I can
+              about "grid" in CSS. Up to this point I most often used flexbox to
+              solve CSS layout problems. But I knew that in some cases grid
+              would be much more useful. So I created a social media dashboard
+              with a very "grid-like" design.<br /><br />Figuring out how to
+              create the optimal code in CSS for the Frontend layout is one of
+              my favorite things to do!
+            </p>
+            <a
+              href="https://fibox-coder.github.io/Admin-dashboard/"
+              target="blank"
+              class="button-link"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Fibox-coder/Admin-dashboard"
+              target="blank"
+              class="button-link"
+              >Github</a
+            >
+          </div>
+
+          <!-- <div class="project-container">
         <h3 class="project-title">Youtube Frontpage Replica (HTML, CSS)</h3>
         <div class="image-container">
           <a href="https://fibox-coder.github.io/Youtube-replica/" target="blank">
@@ -274,65 +512,93 @@
         <a href="https://github.com/Fibox-coder/Youtube-replica" target="blank" class="button-link">Github</a>
       </div> -->
 
-      <div class="project-container">
-        <h3 class="project-title">Rock Paper Scissors (Javascript)</h3>
-        <div class="image-container">
-          <a href="https://fibox-coder.github.io/rock-paper-scissors-revisited/" target="blank">
-            <img class="portfolio-images" src="images/rock-paper-scissors.jpg" alt="Rock Paper Scissors">
-            <div class="overlay">
-              <i class="fas fa-eye"> </i> Preview
+          <div class="project-container">
+            <h3 class="project-title">Rock Paper Scissors (Javascript)</h3>
+            <div class="image-container">
+              <a
+                href="https://fibox-coder.github.io/rock-paper-scissors-revisited/"
+                target="blank"
+              >
+                <img
+                  class="portfolio-images"
+                  src="images/rock-paper-scissors.jpg"
+                  alt="Rock Paper Scissors"
+                />
+                <div class="overlay"><i class="fas fa-eye"> </i> Preview</div>
+              </a>
             </div>
-          </a>
-        </div>
-        <p>the Rock Paper Scissors game has some fun problems to be solved. How to start the game, how to decide who won the round, how to decide who won the game, etc. <br><br>While I personally prefer creating utility applications (like a libraries / calculators) over games, I do see a big value in them for developing coding skills.</p>
-        <a href="https://fibox-coder.github.io/rock-paper-scissors-revisited/" target="blank" class="button-link">Website</a>
-        <a href="https://github.com/Fibox-coder/rock-paper-scissors-revisited" target="blank" class="button-link">Github</a>
-      </div>
-
-    </div>
-  </div>
-
-<div class="contact-container">
-    <div class="contact">
-      <h3>Contact info</h3>
-      <h4 class="outro">Thank you for viewing my portfolio! If you have any questions, or want to contact me for more information, you can reach out to the following: </h4>
-      <br>
-
-
-      
-      <div class="contact-flex">
-        <div class="contact_email">
-          <div class="contact-type">
-            <img src="images/icons/email.png" alt="email icon" class="mail-icon">
-            <h5>Email</h5>
+            <p>
+              The Rock Paper Scissors game has some fun problems to be solved.
+              How to start the game, how to decide who won the round, how to
+              decide who won the game, etc. <br /><br />While I personally
+              prefer creating utility applications (like a libraries /
+              calculators) over games, I do see a big value in them for
+              developing coding skills.
+            </p>
+            <a
+              href="https://fibox-coder.github.io/rock-paper-scissors-revisited/"
+              target="blank"
+              class="button-link"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Fibox-coder/rock-paper-scissors-revisited"
+              target="blank"
+              class="button-link"
+              >Github</a
+            >
           </div>
-          <span class="contact-main">Timvandeutekom@hotmail.com</span>
-        </div>
-        <br>
-        <br>
-        <div class="contact_phone">
-          <div class="contact-type">
-            <img src="images/icons/contact.svg" alt="phone icon" class="phone-icon">
-            <h5>Phone</h5>
-          </div>
-          <span class="contact-main">06 239 313 84</span>
         </div>
       </div>
 
-    </div>
-</div>
+      <div class="contact-container">
+        <div class="contact">
+          <h3>Contact info</h3>
+          <h4 class="outro">
+            Thank you for viewing my portfolio! If you have any questions, or
+            want to contact me for more information, you can reach out to the
+            following:
+          </h4>
+          <br />
 
-  
-   </main>
+          <div class="contact-flex">
+            <div class="contact_email">
+              <div class="contact-type">
+                <img
+                  src="images/icons/email.png"
+                  alt="email icon"
+                  class="mail-icon"
+                />
+                <h5>Email</h5>
+              </div>
+              <span class="contact-main">Timvandeutekom@hotmail.com</span>
+            </div>
+            <br />
+            <br />
+            <div class="contact_phone">
+              <div class="contact-type">
+                <img
+                  src="images/icons/contact.svg"
+                  alt="phone icon"
+                  class="phone-icon"
+                />
+                <h5>Phone</h5>
+              </div>
+              <span class="contact-main">06 239 313 84</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
-   <!-- Start of Footer -->
-   <footer id="footer">
-    <h6 class="copyright">Copyright &copy; 2023 by Tim van Deutekom</h6>
-    <a href="https://github.com/Fibox-coder?tab=repositories" target="blank">
-      <img class="icon" src="images/icons/github.png" alt="Github Icon">
-    </a>
-  </footer>
+    <!-- Start of Footer -->
+    <footer id="footer">
+      <h6 class="copyright">Copyright &copy; 2023 by Tim van Deutekom</h6>
+      <a href="https://github.com/Fibox-coder?tab=repositories" target="blank">
+        <img class="icon" src="images/icons/github.png" alt="Github Icon" />
+      </a>
+    </footer>
 
-  <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
-</body>
+    <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
+  </body>
 </html>
